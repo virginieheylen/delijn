@@ -1,0 +1,25 @@
+{
+  "name": "delijn",
+  "version": "1.0.0",
+  "description": "App Redesign Concept of De Lijn on behalf of faculty \"Crossmediaproductie\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virginieheylen/delijn.git"
+  },
+  "author": "Virginie Heylen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virginieheylen/delijn/issues"
+  },
+  "homepage": "https://github.com/virginieheylen/delijn#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
