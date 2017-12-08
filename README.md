@@ -1,4 +1,4 @@
-# App Redesign Concept of De Lijn 
+# App Redesign Concept of De Lijn
 #### Project on behalf of faculty "Crossmediaproductie"
 
 Introduction ...
@@ -23,7 +23,7 @@ Go to https://www.mongodb.com/ > Download > Community Server > OSX
 * In a system shell, issue the following command: `$ brew update`
 * Install the MongoDB binaries: `$ brew install mongodb`
 * To run MongoDB, run the mongod process at the system prompt: `$ mongod`
-* Manage easily your MongoDB with Robo 3T (formerly [Robomongo](https://robomongo.org/)) 
+* Manage easily your MongoDB with Robo 3T (formerly [Robomongo](https://robomongo.org/))
 
 ## Installing Postman - Client to test node API
 Postman is the most complete toolchain for API development.
