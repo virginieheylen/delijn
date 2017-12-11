@@ -1,0 +1,268 @@
+
+
+body {
+      width: 100%;
+      height:100%;
+      position: fixed;
+        top: 0;
+        padding: 0px;
+        margin: 0px;
+      background-image: url("bus.png");
+      background-size: cover;
+      font-family: 'Fira Sans', sans-serif;
+
+}
+
+
+
+header {
+      background-color: white;
+      height: 100px;
+      width: 100%;
+      margin-top: 0px;
+
+      position: absolute;
+}
+
+.titel1{
+  margin-left: 365px;
+  margin-top: -45px;
+  font-size: 3em;
+  font-weight: bold;
+  position: fixed;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 55px;
+    height: 8px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+
+
+.icon{
+  margin-left: 880px;
+  width: 85px;
+margin-top: -68px;
+}
+
+.invul1{
+  width: 600px;
+height: 70px;
+background-color: white;
+margin-top: 250px;
+margin-left: 250px;
+opacity: 0.8;
+position: absolute;
+  border-radius: 15px;
+
+}
+
+
+.invultekst1{
+  width: 720px;
+height: 70px;
+font-size: 2em;
+margin-top: 275px;
+margin-left: 300px;
+position: absolute;
+color: black;
+font-weight: lighter;
+}
+.invultekst2{
+  width: 720px;
+height: 70px;
+font-size: 2em;
+margin-top: 395px;
+margin-left: 300px;
+position: absolute;
+color: black;
+}
+
+
+
+
+.invul2{
+  width: 600px;
+height: 70px;
+background-color: white;
+margin-top: 370px;
+margin-left: 250px;
+opacity: 0.8;
+position: absolute;
+  border-radius: 15px;
+
+}
+ .blokje1{
+   width: 70px;
+ height: 70px;
+ background-color: black;
+ margin-top: 250px;
+ margin-left: 130px;
+ opacity: 0.8;
+ position: absolute;
+   border-radius: 15px;
+ }
+
+ .blokje2{
+   width: 70px;
+ height: 70px;
+ background-color: black;
+ margin-top: 370px;
+ margin-left: 130px;
+ opacity: 0.8;
+ position: absolute;
+   border-radius: 15px;
+ }
+
+ .lijn1{
+   width: 20px;
+ height: 140px;
+ background-color: black;
+ margin-top: 250px;
+ margin-left: 152px;
+ opacity: 0.8;
+ position: absolute;
+ }
+ .vertreknu{
+   width: 720px;
+ height: 70px;
+ background-color: whitesmoke;
+ margin-top: 500px;
+ margin-left: 130px;
+
+ position: absolute;
+   border-radius: 15px;
+ }
+
+ .vertreknu2{
+   width: 720px;
+ height: 70px;
+ font-size: 2.5em;
+ margin-top: 515px;
+ margin-left: 250px;
+ position: absolute;
+ color: black;
+ }
+
+ .klokje{
+   width: 50px;
+   position: absolute;
+   margin-top: 10px;
+   margin-left: 30px;
+ }
+ .invulblokje1{
+   width: 50px;
+ height: 50px;
+border: 5px solid black;
+ margin-top: 600px;
+ margin-left: 130px;
+ opacity: 0.8;
+ position: absolute;
+   border-radius: 15px;
+ }
+ .invulblokje2{
+   width: 50px;
+ height: 50px;
+ border: 5px solid black;
+ margin-top: 600px;
+ margin-left: 430px;
+ opacity: 0.8;
+ position: absolute;
+   border-radius: 15px;
+ }
+ .invulblokje3{
+   width: 50px;
+ height: 50px;
+ border: 5px solid black;
+ margin-top: 600px;
+ margin-left: 730px;
+ opacity: 0.8;
+ position: absolute;
+   border-radius: 15px;
+ }
+
+ .Route1{
+   width: 720px;
+ height: 150px;
+ background-color: white;
+ margin-top: 750px;
+ margin-left: 130px;
+ position: absolute;
+   border-radius: 15px;
+ }
+
+ .Route2{
+   width: 720px;
+ height: 150px;
+ background-color: white;
+ margin-top: 950px;
+ margin-left: 130px;
+ position: absolute;
+   border-radius: 15px;
+ }
+
+ .Route3{
+   width: 720px;
+ height: 150px;
+ background-color: white;
+ margin-top: 1150px;
+ margin-left: 130px;
+ position: absolute;
+   border-radius: 15px;
+ }
+
+ .abbo{
+   width: 200px;
+ height: 200px;
+ background-color: #FFD700;
+ margin-top: 1400px;
+ margin-left: 360px;
+ position: absolute;
+ border: 14px solid white;
+ border-radius: 25px;
+ }
+
+ .abbo2{
+   width: 720px;
+ height: 70px;
+ font-size: 3em;
+ margin-top: 1650px;
+ margin-left: 285px;
+ position: absolute;
+ color: whitesmoke;
+
+ }
+
+.pijl1{
+  margin-left: 650px;
+  margin-top: 25px;
+  width: 40px;
+}
+
+.pijl2{
+  margin-left: 650px;
+  margin-top: 25px;
+  width: 40px;
+}
+
+.pijl3{
+  margin-left: 650px;
+  margin-top: 25px;
+  width: 40px;
+}
+
+
+ img{
+   width: 100%;
+   height: 100%;
+ }
