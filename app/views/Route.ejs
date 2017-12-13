@@ -1,60 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="Route.css">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-    <meta charset="UTF-8">
-    <title>De Lijn</title>
-</head>
-<body>
+<!doctype html>
+<html>
+	<head>
+		<title>DeLijnApp</title>
 
-  <header>
-    <div class="container" onclick="myFunction(this)">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-    </div>
-    <div class="titel1"> <p> PLAN ROUTE </p> </div>
-    <div class="icon">   <img src="icon.png" alt="icon"> </div>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="Route.css">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+		<meta charset="utf-8">
+	</head>
+	<body>
 
-  </header>
-
-  <div class="blokje1"></div>
-  <div class="blokje2"></div>
-    <div class="lijn1"></div>
-
-  <div class="invul1">
+		<header>
+			<button type="button" class="menu">   <img src="menu.png" alt="menu"> </button>
+			<button type="button" class="icon">   <img src="icon.png" alt="icon"> </button>
+			<div class="titel1"> <p> ROUTES </p> </div>
 
 
-  </div><p class="invultekst1"> Vertrek </p>
+		</header>
 
-  <div class="invul2"></div>
-  </div><p class="invultekst2"> Aankomst </p>
+		<div class="blokje1"></div>
+		<div class="blokje2"></div>
+			<div class="lijn1"></div>
 
-  <div class="vertreknu">
-  <div class="klokje">   <img src="clock.png" alt="klokje"> </div>
-  </div><p class="vertreknu2"> Vertrek nu </p>
+		<div class="invul1"></div>
 
-  </div>
+<button type="button" class="ster">   <img src="ster.png" alt="ster"> </button>
+		</div><p class="invultekst1"> Vertrek </p>
+
+</div>
+
+		<div class="invul2"></div>
+		</div><p class="invultekst2"> Aankomst </p>
+
+</div>
+		<div class="vertreknu">
+		<div class="klokje">   <img src="clock.png" alt="klokje"> </div>
+		</div>
+		<p class="vertreknu2"> Vertrek nu </p>
+</div>
 
 
-  <div class="invulblokje1"></div>
-  <div class="invulblokje2"></div>
-  <div class="invulblokje3"></div>
+		<div class="invulblokje1"></div>
+		<div class="invulblokje2"></div>
+		<div class="invulblokje3"></div>
 
 <div class="Route1">
-<div class="pijl1">   <img src="pijl1.png" alt="icon"> </div>
+
+<p class="busnummer1"> 18 </p>
+<p class="busrit1"> 13:45 → 14:19 </p>
+
+<p class="bustijd1"> 34min. </p>
+<button type="button" class="pijl1">   <img src="pijl1.png" alt="icon"> </button>
 </div>
+
 <div class="Route2">
-<div class="pijl2">   <img src="pijl1.png" alt="icon"> </div></div>
+<p class="busnummer2"> 5 </p>
+<p class="busrit2"> 13:59 → 14:26 </p>
+
+<p class="bustijd2"> 27min. </p>
+<button type="button" class="pijl2">   <img src="pijl1.png" alt="icon"> </button>
+</div>
 
 <div class="Route3">
-<div class="pijl3">   <img src="pijl1.png" alt="icon"> </div></div>
+<p class="busnummer3"> 18 </p>
+<p class="busrit3"> 14:44 → 15:17 </p>
 
-<div class="abbo"></div>
-</div><p class="abbo2"> Toon abbonement </p>
+<p class="bustijd3"> 33min. </p>
+<button type="button" class="pijl3">   <img src="pijl1.png" alt="icon"> </button>
+</div>
 
+<button type="button" class="abbo"></button>
+<p class="abbo2"> Toon abbonement </p>
 
-</body>
+		<script src="Route.js"></script>
+	</body>
 </html>

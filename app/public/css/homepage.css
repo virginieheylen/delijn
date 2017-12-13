@@ -25,34 +25,24 @@ header {
 }
 
 .titel1{
-  margin-left: 365px;
-  margin-top: -45px;
+  margin-left: 370px;
+  margin-top: -60px;
   font-size: 3em;
   font-weight: bold;
   position: fixed;
 }
-.container {
-    display: inline-block;
-    cursor: pointer;
-    margin-top: 30px;
+.menu{
+  margin-left: 25px;
+  width: 80px;
+  margin-top: 20px;
 }
-
-.bar1, .bar2, .bar3 {
-    width: 55px;
-    height: 8px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-    margin-left: 30px;
-    margin-top: 4px;
-}
-
-
 
 .icon{
-  margin-left: 880px;
-  width: 85px;
-margin-top: -68px;
+  margin-left: 760px;
+  width: 90px;
+margin-top: 15px;
+position:  absolute;
+
 }
 
 .invul1{
@@ -278,7 +268,7 @@ border: 5px solid black;
  height: 200px;
  background-color: #FFD700;
  margin-top: 1400px;
- margin-left: 360px;
+ margin-left: 375px;
  position: absolute;
  border: 14px solid white;
  border-radius: 25px;

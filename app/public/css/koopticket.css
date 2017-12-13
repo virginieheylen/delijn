@@ -79,26 +79,7 @@ border-radius: 15px;
 }
 
 
-.koopM{
-  width: 600px;
-height: 120px;
-background-color: #FFD700;
-margin-top: 800px;
-margin-left: 190px;
-position: absolute;
 
-border-radius: 25px;
-}
-
-.koopM2{
-  width: 720px;
-height: 70px;
-font-size: 3em;
-margin-top: 840px;
-margin-left: 270px;
-position: absolute;
-color: black;
-}
 
 .info2{
   width: 800px;
@@ -131,6 +112,17 @@ position: absolute;
 color: whitesmoke;
 
 }
+
+.tekst1{
+  width: 720px;
+height: 70px;
+font-size: 3em;
+margin-top: 50px;
+margin-left: 50px;
+position: absolute;
+color: black;
+}
+
 
 img{
   width: 100%;
