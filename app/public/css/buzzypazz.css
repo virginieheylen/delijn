@@ -7,7 +7,7 @@ body {
         top: 0;
         padding: 0px;
         margin: 0px;
-      background-image: url("bus.png");
+      background-image: url("../images/bus.png");
       background-size: cover;
       font-family: 'Fira Sans', sans-serif;
 

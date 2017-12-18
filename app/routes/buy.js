@@ -3,11 +3,7 @@ var router = express.Router();
 
 router
     .get( '/', function (req, res) {
-        res.render( 'account', {} );
-    })
-
-    .get( '/buzzy-pazz-verlengen', (req, res) => {
-        res.render( 'buzzypazz', {} );
+        res.render( 'koopticket', {} );
     });
 
 module.exports = router;

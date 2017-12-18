@@ -3,11 +3,11 @@ var router = express.Router();
 
 router
     .get( '/', function (req, res) {
-        res.send( 'Routeplanner pagina ...' );
+        res.render( 'route', {} );
     })
 
-    .get( '/resultaten', function (req, res) {
-        res.send( 'Routeplanner resultaten ...' );
+    .get( '/mijn-route', function (req, res) {
+        res.render( 'mijnroute', {} );
     });
 
 module.exports = router;

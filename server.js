@@ -23,6 +23,9 @@ mongoose.connect( 'mongodb://localhost:27017/delijn', {
     useMongoClient: true
 });
 
+// Define the location of our public files
+app.use( express.static( __dirname + '/app/public' ));
+
 // Configure our app for bodyParser()
 // Lets us grab data from the body of POST
 app.use( bodyParser.urlencoded({ extended: true }) );
@@ -34,11 +37,15 @@ app.set( 'view engine', 'ejs' );
 
 // Routes
 var root            = require('./app/routes/root');
-var routeplanner    = require('./app/routes/routeplanner');
+var routes          = require('./app/routes/routes');
+var buy             = require('./app/routes/buy');
+var favourites      = require('./app/routes/favourites');
 var account         = require('./app/routes/account');
 
 app.use( '/', root );
-app.use( '/routeplanner', routeplanner );
+app.use( '/routes', routes );
+app.use( '/koop-ticket', buy );
+app.use( '/favorieten', favourites );
 app.use( '/account', account );
 
 // Fire up server

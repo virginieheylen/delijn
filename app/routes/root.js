@@ -2,7 +2,9 @@ var express = require( 'express' );
 var router = express.Router();
 
 router
-    .get( '/', (req, res) => res.redirect( '/login' ) )
+    // .get( '/', (req, res) => res.redirect( '/login' ) )
+    
+    .get( '/', (req, res) => res.render( 'homepage', {} ) )
     
     .get( '/login', (req, res) => res.render( 'login', {} ) )
 
