@@ -10,37 +10,36 @@
 
 	<body>
 
-		<header>
-			<button type="button" class="menu">   <img src="../images/menu.png" alt="menu"> </button>
-			<button type="button" class="icon">   <img src="../images/icon.png" alt="icon"> </button>
-			<div class="titel1"> <p> ROUTES </p> </div>
+		<header class="toolbar">
+			<a href="/"><img src="images/menu.png" alt="menu"></a>
+			<div class="toolbar-title">ROUTES</div>
 		</header>
 
-		<div class="blokje1"></div>
-		<div class="blokje2"></div>
-			<div class="lijn1"></div>
-
-		<div class="invul1"></div>
-
-<button type="button" class="ster">   <img src="../images/ster.png" alt="ster"> </button>
-		</div><p class="invultekst1"> Vertrek </p>
-
-</div>
-
-		<div class="invul2"></div>
-		</div><p class="invultekst2"> Aankomst </p>
-
-</div>
-		<div class="vertreknu">
-		<div class="klokje">   <img src="../images/clock.png" alt="klokje"> </div>
-		</div>
-		<p class="vertreknu2"> Vertrek nu </p>
-</div>
+		<ul>
+			<li><input type="text" placeholder="vertrek"/></li>
+			<li><input type="text" placeholder="aankomst"/></li>
+			<li>
+				<select>
+					<option value='0'>Vertrek nu</option>
+					<option value='1'>Over 1 uur</option>
+					<option value='2'>Over 2 uur</option>
+				</select>
+			</li>
+			<li>
+				<button type="button">ga naar route</button>
+			</li>
+		</ul>
 
 
-		<div class="invulblokje1"></div>
-		<div class="invulblokje2"></div>
-		<div class="invulblokje3"></div>
+<button type="button">ga naar route</button>
+
+<ul>
+	<li><a href>route 1</a></li>
+	<li><a href>route 2</a></li>
+	<li><a href>route 3</a></li>
+
+</ul>
+
 
 <div class="Route1">
 
@@ -67,8 +66,8 @@
 <button type="button" class="pijl3">   <img src="pijl1.png" alt="icon"> </button>
 </div>
 
-<button type="button" class="abbo"></button>
-<p class="abbo2"> Toon abbonement </p>
+<button type="button">toon abbonement</button>
+
 
 		<script src="Route.js"></script>
 	</body>
