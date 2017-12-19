@@ -25,12 +25,15 @@ body {
 }
 
 .toolbar a{
-  float: left;
+  position: absolute;
+    left: 1em;
+    top: 1em;
 }
 
 .toolbar-titel{
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
+  padding-top: 0.6em;
 }
 
 .button-primary{
