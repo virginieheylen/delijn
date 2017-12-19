@@ -45,6 +45,7 @@ body {
   color: #333;
   outline: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button-secondary{
@@ -53,6 +54,19 @@ body {
   padding: 0.6em 2em;
   text-align: center;
   color: #FFF;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  width: 70%;
+}
+
+.button-secondary-alt{
+  background-color: rgba(255,255,255,255);
+  border-radius: 6px;
+  padding: 0.6em 2em;
+  text-align: center;
+  color: rgba(0,0,0,0.8);
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -85,3 +99,43 @@ ul.clear li{
  .select{
    width: 100%;
  }
+
+.info{
+  background-color: #FFF;
+  width: calc(80% - 2em);
+  margin: 0 auto 2em;
+  padding: 1em
+
+}
+
+.abbo-txt{
+  background-color: rgba(255,255,255,255);
+  border-radius: 6px;
+  padding: 0.6em 2em;
+  text-align: center;
+  color: rgba(0,0,0,0.8);
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 70%;
+margin: 0 auto 1em;
+}
+
+img.kaart{
+  width: 80%;
+  display: inline-block;
+  margin: 2em 0;
+}
+
+img.QR{
+  width: 70%;
+  display: inline-block;
+  margin: 2em 0;
+}
+
+img.account{
+  width: 70%;
+  display: inline-block;
+  margin: 2em 0;
+  background-color: white;
+}
