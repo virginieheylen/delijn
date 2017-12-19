@@ -6,7 +6,7 @@ router
         res.render( 'account', {} );
     })
 
-    .get( '/buzzy-pazz-verlengen', (req, res) => {
+    .get( '/buzzy-pazz', (req, res) => {
         res.render( 'buzzypazz', {} );
     });
 

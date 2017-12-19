@@ -15,30 +15,32 @@
 			<div class="toolbar-titel">PLAN ROUTE</div>
 		</header>
 
-<ul class="clear">
-	<li><input class="input" type="text" placeholder="vertrek"/></li>
-	<li><input class="input" type="text" placeholder="aankomst"/></li>
-	<li>
-		<select class="select">
-			<option value='0'>Vertrek nu</option>
-			<option value='1'>Over 1 uur</option>
-			<option value='2'>Over 2 uur</option>
-		</select>
-	</li>
-	<li class="txt-center">
-		<button class="button-primary" type="button">ga naar route</button>
-	</li>
-</ul>
+		<form method="post" action="/routes">
+			<ul class="clear">
+				<li><input class="input" type="text" placeholder="vertrek" name="departure" /></li>
+				<li><input class="input" type="text" placeholder="aankomst" name="arrival" /></li>
+				<li>
+					<select class="select" name="time">
+						<option value='0'>Vertrek nu</option>
+						<option value='1'>Over 1 uur</option>
+						<option value='2'>Over 2 uur</option>
+					</select>
+				</li>
+				<li class="txt-center">
+					<button class="button-primary" type="submit">ga naar route</button>
+				</li>
+			</ul>
+		</form>
 
-<ul class="clear txt-center">
-	<li><a class="button-secondary" href="/koop-ticket">Koop ticket</a></li>
-	<li><a class="button-secondary" href="/favorieten">Favorieten</a></li>
-	<li><a class="button-secondary" href="/account">Account</a></li>
-</ul>
+		<ul class="clear txt-center">
+			<li><a class="button-secondary" href="/koop-ticket">Koop ticket</a></li>
+			<li><a class="button-secondary" href="/favorieten">Favorieten</a></li>
+			<li><a class="button-secondary" href="/account">Account</a></li>
+		</ul>
 
-<div class="txt-center">
-<button class="button-primary" type="button">toon abbonement</button>
-</div>
+		<div class="txt-center">
+			<button class="button-primary" type="button">toon abbonement</button>
+		</div>
 
 	</body>
 </html>
