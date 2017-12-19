@@ -4,23 +4,81 @@ body {
 
       font-family: 'Fira Sans', sans-serif;
       font-size: 13px;
+      padding-top: 5em;
 }
 
 .body-background{
-  background-image: url("bus.png");
+  background-image: url("../images/bus.png");
   background-size: cover;
 }
 
 .toolbar{
       background-color: white;
-      height: 100px;
       width: 100%;
       top: 0;
       left: 0;
       position: fixed;
+      text-align: center;
+      padding: 1em;
+      border-bottom: 1px solid #CCC;
+
+}
+
+.toolbar a{
+  float: left;
 }
 
 .toolbar-titel{
   font-size: 3em;
   font-weight: bold;
 }
+
+.button-primary{
+  background-color: #fd0;
+  border-radius: 10px;
+  padding: 1em 2em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-secondary{
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 6px;
+  padding: 0.6em 2em;
+  text-align: center;
+  color: #FFF;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  width: 70%;
+}
+
+.txt-center{
+  text-align: center;
+}
+
+ul.clear{
+  list-style: none;
+  padding: 0 3em;
+
+}
+
+ul.clear li{
+  margin-bottom: 0.6em;
+}
+
+.input{
+  border: 1px solid #CCC;
+  background-color: #FFF;
+  padding: 0.6em 2em;
+  display: block;
+  width: calc(100% - 4em);
+  border-radius: 6px;
+}
+ .select{
+   width: 100%;
+ }
