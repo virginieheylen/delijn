@@ -1,0 +1,26 @@
+
+
+body {
+
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 13px;
+}
+
+.body-background{
+  background-image: url("bus.png");
+  background-size: cover;
+}
+
+.toolbar{
+      background-color: white;
+      height: 100px;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: fixed;
+}
+
+.toolbar-titel{
+  font-size: 3em;
+  font-weight: bold;
+}
